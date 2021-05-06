@@ -40,8 +40,31 @@
   padding: 0 20px;
 }
 
+.chat-room{
+  margin:20px 0 40px 0;
+}
+
+.chat-room a{
+  color: white;
+}
+
 .side-header {
   height: 100px;
   background-color: #253141;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-user-name {
+  color: #FAFAFA;
+  font-size: 16px;
+}
+
+.chat-box{
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
 }
