@@ -7,25 +7,8 @@
   </div>    
 </div>
 
-<div class="main-contents">
-  <div class="user-category">
-    <div class="user">
-      <p class="name">Takuma</p>
-      <p class="date-time">2021/5/6/(Thu) 12:30:30<p>
-    </div>
-    <div class="message">
-      <p>Good morning</p>
-    </div>
-  </div>
-  <div class="user-category">  
-    <div class="user"> 
-      <p class="name">Mae</p>
-      <p class="date-time">2021/5/6/(Thu) 12:30:30<p>
-    </div>
-    <div class="message">
-      <p>Good evening</p>
-    </div>
-  </div>  
+<div class="messages">
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
@@ -40,5 +23,5 @@
   </div>
   <%= f.submit '送信', class: "form_submit" %>
   <% end %>
-</div>
+
   
